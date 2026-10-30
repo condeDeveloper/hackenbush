@@ -1,0 +1,15 @@
+{
+  "name": "hackenbush",
+  "version": "1.0.0",
+  "description": "Hackenbush azul-vermelho em Node puro: o valor de cada talo calculado pela recursao dos jogos e pela regra de Berlekamp, em fracao diadica exata.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
